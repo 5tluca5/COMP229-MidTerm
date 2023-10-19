@@ -20,7 +20,7 @@ export default function ReactProductForm()
 
     return (
         <div className="form">
-            <h1 className="form_title">New Shop</h1>
+            <h1 className="form_title">New Product</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div class="row">
                 <input type="text" className="input" id="Name" placeholder="Name" {...register("Name", { required: true})}></input>
